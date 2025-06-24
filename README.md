@@ -14,6 +14,7 @@ ping_telnet_email/
 ├── telnet/
 │   └── telnet_monitor.py
 ├── requirements.txt
+|── LICENSE
 └── README.md
 ```
 
@@ -93,14 +94,14 @@ example.com:80
 
 ```bash
 cd ping
-python ping_email.py
+python ping_monitor.py
 ```
 
 ### Telnet Monitor
 
 ```bash
 cd telnet
-python telnet_email.py
+python telnet_monitor.py
 ```
 
 ---
