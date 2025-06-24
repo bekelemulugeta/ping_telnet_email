@@ -13,9 +13,16 @@ ping_telnet_email/
 │   └── ping_monitor.py
 ├── telnet/
 │   └── telnet_monitor.py
+├── tests/
+│   ├── test_ping.py
+│   └── test_telnet.py
+├── .github/
+│   └── workflows/
+│       └── python-app.yml
 ├── requirements.txt
-|── LICENSE
+├── LICENSE
 └── README.md
+
 ```
 
 ---
