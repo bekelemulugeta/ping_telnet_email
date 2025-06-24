@@ -93,14 +93,14 @@ example.com:80
 
 ```bash
 cd ping
-python ping_monitor.py
+python ping_email.py
 ```
 
 ### Telnet Monitor
 
 ```bash
 cd telnet
-python telnet_monitor.py
+python telnet_email.py
 ```
 
 ---
