@@ -123,7 +123,7 @@ def is_ping_successful(ip, timeout=2):
 
 
 def start_monitoring(ip_list, sender, password, receiver):
-    global monitoring_started
+    #global monitoring_started
     receiver_list = [email.strip() for email in receiver.split(",")]
 
     def monitor(ip):

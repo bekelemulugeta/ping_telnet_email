@@ -87,7 +87,7 @@ def is_telnet_successful(ip, port, timeout=5):
         return False
 
 def start_monitoring(ip_list, sender, password, receiver):
-    global monitoring_started
+    #global monitoring_started
     receiver_list = [email.strip() for email in receiver.split(",")]
 
     def monitor(ip_port):
